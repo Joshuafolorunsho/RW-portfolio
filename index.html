@@ -8,62 +8,19 @@
         <title>Musical Artist Portfolio</title>
     </head>
     <body>
-      <!-- Mobile view -->
-       <header class="d-lg-none nav-mobile">
-        <nav class="navbar navbar-expand-lg navbar-light py-4">
-          <div class="container">
-              <a class="navbar-brand" href="#">
-                  <img src="./assets/images/JohnnyB.svg" class="logo" alt="">
-              </a>
-              <div class="navbar-toggler custom-hamburger-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                  <div class="line-1"></div>
-                  <div class="line-2"></div>
-                  <div class="line-3"></div>
-                </div>
-              </div>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav ml-auto">
-                      <li class="nav-item mx-lg-3">
-                        <a class="nav-link active" href="#">Home</a>
-                      </li>
-                      <li class="nav-item mx-lg-3">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item mx-lg-3">
-                        <a class="nav-link" href="#">Music</a>
-                      </li>
-                      <li class="nav-item mx-lg-3">
-                        <a class="nav-link" href="#">Concerts</a>
-                      </li>
-                      <li class="nav-item mx-lg-3">
-                        <a class="nav-link" href="#">Contact Us</a>
-                      </li>
-                    </ul>
-              </div>
-          </div>
-        </nav>
-        <section class="header-mobile d-flex align-items-center">
-          <div class="container">
-           <div class="row">
-             <div class="col">
-               <h1 class="text-center">Love you baby</h1>
-               <p class="text-center">Available now on Itunes, Spotify</p>
-               <div class="text-center">
-                 <a href="" class="btn btn-wine px-4 py-2">Stream now</a>
-               </div>
-             </div>
-           </div>
-         </div>
-         </section>
-       </header>
-      <!-- Desktop view -->
-       <header class="header sticky-top d-none d-lg-block">
+       <header class="header sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light py-4">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/images/JohnnyB.svg" class="logo" alt="">
+                    <img src="./assets/images/logo.svg" class="logo" alt="">
                 </a>
+                <div class="navbar-toggler custom-hamburger-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <div class="hamburger">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                  </div>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-lg-3">
@@ -73,13 +30,16 @@
                           <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item mx-lg-3">
-                          <a class="nav-link" href="#">Music</a>
+                          <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item mx-lg-3">
-                          <a class="nav-link" href="#">Concerts</a>
+                          <a class="nav-link" href="#">Testmonial</a>
                         </li>
                         <li class="nav-item mx-lg-3">
-                          <a class="nav-link" href="#">Contact Us</a>
+                          <a class="btn btn-custom-outline-primary" href="#">Contact me</a>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                          <a class="btn btn-custom-primary" href="#">Hire me</a>
                         </li>
                       </ul>
                 </div>
@@ -87,9 +47,164 @@
         </nav>
        </header>
        <main>
-         
+        <section class="hero-section">
+          <div class="container">
+            <div class="row hero-section-text align-items-center">
+              <div class="col-lg-6">
+                <h2>
+                  Hi!
+                </h2>
+                <h1>
+                  I’m Rebecca Wook 
+                </h1>
+                <h2>
+                  UI/UX Designer
+                </h2>
+                <p>
+                  I create exceptional experiences that aligns your companies strategy with your customer needs. I help founders and their businesses craft excellent user experiences.
+                </p>
+                <div class="social-profile">
+                  <div class="row">
+                    <div class="col">
+                      <h5>Email</h5>
+                      <p>rebeccawook@gmail.com </p>
+                    </div>
+                    <div class="col">
+                      <h5>Behance</h5>
+                      <p>behance.net/rebecca</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn btn-custom-primary" href="#">Hire me</a>
+              </div>
+              <div class="col-sm-6"></div>
+            </div>
+          </div>
+        </section>
+        <section class="skill text-center py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="skill__card mb-3 mb-md-0">
+                  <div class="d-flex justify-content-center align-items-center h-100 py-3">
+                    <div>
+                      <img class="pr-3 pr-sm-2 pr-lg-3" src="./assets/images/blue check mark.svg" alt="">
+                    </div>
+                    <div class="text-center pr-3 pr-sm-2 pr-lg-3">
+                      <h6 class="skill__card-title mb-0 mt-3">UI/UX Designer</h6>
+                      <p class="skill__card-description"> Creative UI for you </p>
+                    </div>
+                    <img src="./assets/images/right arrow.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="skill__card mb-3 mb-md-0">
+                  <div class="d-flex justify-content-center align-items-center h-100 py-3">
+                    <div>
+                      <img class="pr-3 pr-sm-2 pr-lg-3" src="./assets/images/orange check mark.svg" alt="">
+                    </div>
+                    <div class="text-center pr-3 pr-sm-2 pr-lg-3">
+                      <h6 class="skill__card-title mb-0 mt-3">Web Development</h6>
+                      <p class="skill__card-description">website for you</p>
+                    </div>
+                    <img src="./assets/images/right arrow.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="skill__card mb-3 mb-md-0">
+                  <div class="d-flex justify-content-center align-items-center h-100 py-3">
+                    <div>
+                      <img class="pr-3 pr-sm-2 pr-lg-3" src="./assets/images/blue check mark.svg" alt="">
+                    </div>
+                    <div class="text-center pr-3 pr-sm-2 pr-lg-3">
+                      <h6 class="skill__card-title mb-0 mt-3">3D Modelling</h6>
+                      <p class="skill__card-description">3D models for you</p>
+                    </div>
+                    <img src="./assets/images/right arrow.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> 
+        <section class="about py-5">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <img class="img-fluid" src="./assets/images/About me picture.svg" alt="">
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-6 py-4 py-sm-0">
+                <div class="d-md-flex">
+                  <div>
+                    <h5 class="title">About me</h5>
+                  </div>
+                  <div>
+                    <div>
+                      <h2 class="sub-title">Need Creative Design?</h2>
+                      <h2 class="sub-title">I can Help</h2>
+                    </div>
+                    <p>
+                      I am a product Designer and Digital Creative Director working in design field for over 10 years. I specialized in UI/UX, Branding and digital designs. These are the words we live by in everything i do. Every story i tell, every brand i build, and every interactions i create must l not only look beautiful.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skills">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-md-flex">
+                  <div class="title-container">
+                    <h5 class="title">My skills</h5>
+                  </div>
+                  <div>
+                    <h2 class="sub-title">What My Design Skills Include</h2>
+                    <p>I provide a range of services inUI/UX Design: creative, technical and analytical solutions for your buisness. From analysis to the development of solutions of any complexity.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 p-3">
+                    <div class="skills__card d-flex flex-column  justify-content-center align-items-center py-4 mb-2">
+                      <img src="./assets/images/user experience icon.svg" alt="">
+                      <h5 class="pt-3">User Experience</h5>
+                    </div>
+             
+                    <div class="skills__card d-flex flex-column  justify-content-center align-items-center py-4 mb-2">
+                      <img src="./assets/images/user experience icon.svg" alt="">
+                      <h5 class="pt-3">User Experience</h5>
+                    </div>
+                    <div class="skills__card d-flex flex-column  justify-content-center align-items-center py-4 mb-2">
+                      <img src="./assets/images/user experience icon.svg" alt="">
+                      <h5 class="pt-3">User Experience</h5>
+                    </div>
+                    <div class="skills__card d-flex flex-column  justify-content-center align-items-center py-4 mb-2">
+                      <img src="./assets/images/user experience icon.svg" alt="">
+                      <h5 class="pt-3">User Experience</h5>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="project">
+          <div class="container">
+            <div class="row py-6">
+              <div class="col-3">
+                <div class="text-center">
+                  <img src="./assets/images/happy clients icon.svg" alt="">
+                  <p class="pt-2 pt-md-4">Happy Clients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>    
        </main>
-       <!-- FIXME: FIX ALIGNMENT -->
+ 
        <footer class="footer py-3">
         <div class="container">
          
