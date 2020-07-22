@@ -1,157 +1,161 @@
 body {
-   background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .header {
-   background-color: #F2F4F7;
-   height: 88px;
+  background-color: #f2f4f7;
+  height: 88px;
 }
 
 .header-mobile {
-   color: #fff;
+  color: #fff;
 }
 
 .navbar-brand img {
-   max-height: 60px;
+  max-height: 60px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-   color: #111F4D;
+  color: #111f4d;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-   color: #E43A19;
+  color: #e43a19;
 }
 
 .custom-hamburger-btn {
-   border: none;
+  border: none;
 }
 
 .hamburger {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-end;
-	padding-right: 2.5%;
-	cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 2.5%;
+  cursor: pointer;
 }
 
 .line-1,
 .line-2,
 .line-3 {
-	width: 30px;
-	height: 4px;
-	background-color: #E43A19;
-	margin: 2.5px 0;
-	transition: 0.4s;
+  width: 30px;
+  height: 4px;
+  background-color: #e43a19;
+  margin: 2.5px 0;
+  transition: 0.4s;
 }
 
 /* Toggle class to  change the state of hambuger icon cross*/
 .toggle .line-1 {
-	transform: translateY(12px) rotate(135deg);
+  transform: translateY(12px) rotate(135deg);
 }
 
 .toggle .line-2 {
-	opacity: 0;
+  opacity: 0;
 }
 
 .toggle .line-3 {
-	transform: translateY(-7.6px) rotate(-135deg);
+  transform: translateY(-7.6px) rotate(-135deg);
 }
 
 .hero-section {
-   background: #111F4D;
-   height: 88vh;
-   color: #fff;
+  background: #111f4d;
+  height: 88vh;
+  color: #fff;
 }
 
 .hero-section-text {
-   height: 88vh;
+  height: 88vh;
 }
 
 .skill__card {
-   max-width: 300px;
-   background-color: #F2F4F7;
-   box-shadow: 1px 2px 9px rgba(55, 20, 153, 0.1);
-   border-radius: 8px;
+  max-width: 300px;
+  background-color: #f2f4f7;
+  box-shadow: 1px 2px 9px rgba(55, 20, 153, 0.1);
+  border-radius: 8px;
 }
 
-
 .py-6 {
-   padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .btn-custom-primary,
 .btn-custom-primary:hover {
-   background: #E43A19;
-   border: 1.5px solid #E43A19;
-   color: #fff;
-   border-radius: 4px;
+  background: #e43a19;
+  border: 1.5px solid #e43a19;
+  color: #fff;
+  border-radius: 4px;
 }
 
 .btn-custom-outline-primary,
 .btn-custom-outline-primary:hover {
-   border: 1.5px solid #E43A19;
-   color: #E43A19;
-   border-radius: 4px;
+  border: 1.5px solid #e43a19;
+  color: #e43a19;
+  border-radius: 4px;
 }
 
 .title,
 .title {
-   color: #E43A19;
+  color: #e43a19;
 }
 
 .sub-title {
-   color: #111F4D;
+  color: #111f4d;
 }
 
 .skills__card {
-   background-color: #F2F4F7;
-   box-shadow: 1px 2px 4px rgba(25, 61, 115, 0.1);
-   border-radius: 8px;
-   max-width: 200px;
+  background-color: #f2f4f7;
+  box-shadow: 1px 2px 4px rgba(25, 61, 115, 0.1);
+  border-radius: 8px;
+  max-width: 200px;
 }
 
 .title::before {
-      content: '';
-      display: inline-block;
-      width: 38px;
-      height: 3px;
-      background-color: #E43A19;
-      transform: translateY(-5px);
-      margin-right: 10px;
+  content: "";
+  display: inline-block;
+  width: 38px;
+  height: 3px;
+  background-color: #e43a19;
+  transform: translateY(-5px);
+  margin-right: 10px;
 }
 
-
-.project {
-   background-color: #111F4D;
-   color: #fff;
+.project,
+.blue-bg {
+  background-color: #111f4d;
+  color: #fff;
 }
 
 .project .container {
-   max-width: 900px;
+  max-width: 900px;
 }
 
+.progress-bg {
+   background-color:rgba(0, 0, 0, 0.25);
+   height: 8px;
+}
+
+.progress-bar-bg {
+   background: #E43A19;
+}
 
 @media (min-width: 768px) {
-   .title::before {
-      margin-right: 0;
-      transform: translateY(-35px) rotate(-90deg);
-   }
+  .title::before {
+    margin-right: 0;
+    transform: translateY(-35px) rotate(-90deg);
+  }
 
-   .title {
-      writing-mode:vertical-lr;
-      transform: rotate(-180deg);
-   }
-
+  .title {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+  }
 }
 
 @media (min-width: 992px) {
-
-   .hero-section {
-      background-image: url('../images/hero\ profile\ picture.svg');
-      background-position: center right;
-      background-repeat: no-repeat;
-   }
-
+  .hero-section {
+    background-image: url("../images/hero\ profile\ picture.svg");
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
 }
