@@ -132,12 +132,43 @@ body {
 }
 
 .progress-bg {
-   background-color:rgba(0, 0, 0, 0.25);
-   height: 8px;
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 8px;
 }
 
 .progress-bar-bg {
-   background: #E43A19;
+  background: #e43a19;
+}
+
+.testimonial-card {
+  border-radius: 8px;
+}
+
+.testimonial-card {
+  position: relative;
+}
+
+.testimonial-card__text::before,
+.testimonial-card__text::after {
+  color: #e43a19;
+  position: absolute;
+  font-size: 30px;
+}
+
+.testimonial-card__text::before {
+  content: "\201C";
+  top: 20px;
+  left: 44%;
+}
+
+.testimonial-card__text::after {
+  content: "\201D";
+  bottom: 70px;
+  right: 44%;
+}
+
+textarea.message {
+  height: 130px;
 }
 
 @media (min-width: 768px) {
