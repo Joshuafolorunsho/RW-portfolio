@@ -187,6 +187,14 @@ textarea.message {
   }
 }
 
+@media (max-width: 768px) {
+
+  .skills__card {
+    margin: 0 auto;
+  }
+
+}
+
 @media (min-width: 992px) {
   .hero-section {
     background-image: url("../images/hero\ profile\ picture.svg");
